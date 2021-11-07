@@ -16,11 +16,11 @@ import java.net.URISyntaxException;
  */
 public class MainGUI extends JFrame {
 
-    public static final String NAME = "NameObfuscator";
+    public static final String NAME = "LuxotObfuscator Beta";
     public static final String VERSION = MainGUI.class.getPackage().getImplementationVersion();
 
     public MainGUI() throws HeadlessException {
-        setTitle(MainGUI.NAME + " | " + MainGUI.VERSION + " | By Enaium");
+        setTitle(MainGUI.NAME + " | " + MainGUI.VERSION + " | By Luxotick");
         setSize(700, 400);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setLocationRelativeTo(getOwner());
@@ -32,7 +32,7 @@ public class MainGUI extends JFrame {
         JMenuItem contact = new JMenuItem("Contact");
         contact.addActionListener(e -> {
             try {
-                Desktop.getDesktop().browse(new URI("https://github.com/Enaium/NameObfuscator"));
+                Desktop.getDesktop().browse(new URI("https://www.cumhuriyet.com.tr/Archive/2016/3/9/495196_resource/1-8.jpg"));
             } catch (IOException | URISyntaxException ioException) {
                 MessageUtil.error(ioException);
             }
