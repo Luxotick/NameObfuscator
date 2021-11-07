@@ -9,7 +9,7 @@ import javax.swing.*;
  */
 public class StatusPanel extends JPanel {
 
-    public static final JLabel STATUS_LABEL = new JLabel(MainGUI.NAME + " | " + MainGUI.VERSION + " | By Luxotick);
+    public static final JLabel STATUS_LABEL = new JLabel(MainGUI.NAME + " | " + MainGUI.VERSION + " | By Luxotick");
 
     public static void reset() {
         STATUS_LABEL.setText(MainGUI.NAME + " | " + MainGUI.VERSION + " | By Luxotick");
