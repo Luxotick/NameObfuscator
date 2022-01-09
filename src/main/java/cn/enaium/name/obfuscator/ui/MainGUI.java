@@ -32,7 +32,7 @@ public class MainGUI extends JFrame {
         JMenuItem contact = new JMenuItem("Contact");
         contact.addActionListener(e -> {
             try {
-                Desktop.getDesktop().browse(new URI("https://www.cumhuriyet.com.tr/Archive/2016/3/9/495196_resource/1-8.jpg"));
+                Desktop.getDesktop().browse(new URI("https://agalar.xyz"));
             } catch (IOException | URISyntaxException ioException) {
                 MessageUtil.error(ioException);
             }
